@@ -1,0 +1,263 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-toggler {
+    background-color: gray;
+}
+/* #navigation {
+    height: 100px;;
+} */
+a {
+    color: green;
+}
+.card {
+    float: none;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 150px;
+    height: auto;
+    background: url("../images/concrete_seamless\ copy.png");
+    
+}
+.animation {
+    animation: type 1s steps(8);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid black;
+    width: 8.5ch;
+    margin-bottom: 20px;
+
+}
+@keyframes type {
+0% {
+  width: 0ch;
+}
+100% {
+  width: 9ch;
+}
+}
+.card-img {
+    height: 425px;
+    width: 330px;
+    padding: 2px;
+    margin: 5px;
+    float: left;
+}
+.card-body {
+    font-size: 23px;
+}
+/* footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: black;
+    border-top: 8px solid navy;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+  } */
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 80px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    background: url("../images/concrete_seamless\ copy.png");
+    margin-top: 20px;
+  }
+  label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: navy;
+  border: 0 none;
+
+}
+#emailText, #messageText {
+    margin-top: 5px;
+}
+#linkedIn, #gitHub, #gmail, #resume {
+    height: 40px;
+    width: 50px;
+    float: right;
+    padding: 0 0 0 10px;
+  }
+  #portfolioTitle {
+     
+        padding-bottom: 10px;
+        font-size: 50px;
+        line-height: 49px;
+        border-bottom: 3px solid black;
+      }
+      .work {
+        position: relative;
+        float: left;
+        width: 274px;
+        height: 230px;
+        margin: 25px;
+        overflow: auto;
+      }
+      
+      .work:nth-child(even) {
+        margin-right: 40px;
+      }
+      
+      .work img {
+        width: 100%;
+        border: 0 none;
+        opacity: 0.8;
+      }
+      
+      .work h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        background: navy;
+        border-bottom: 0;
+      }
+      
+      .auth-image {
+        float: left;
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
+      }
+      #portfolioBackground {
+        float: left;
+        width: auto;
+        padding: 30px;
+        margin: 0 0 40px;
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        background: url("../images/concrete_seamless\ copy.png");
+        margin-top: 20px;
+      }
+      #trivia, #liri, #gifs {
+          height:200px;
+      }
+#footer2, #portfolioFooter {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: black;
+    border-top: 8px solid navy;
+    height: 50px;
+    /* bottom: 0;
+    position: absolute; */
+    width: 100%;
+    margin-top: 140px;
+}
+#contactFooter {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: black;
+    border-top: 8px solid navy;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+#aboutMe {
+    border-bottom: 5px solid black;
+    font-family: cursive;
+}
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bd-example{
+    width: 20%;
+    height: 20%;
+    float: none;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+.navbar {
+    min-height: 80px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+.samPai {
+    background-color: darkblue;
+    border-radius: 25px;
+}
+#samPai {
+    text-align: center;
+    margin-left: 12px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+}
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+#main-container {
+    margin-top:100px;
+
+}
