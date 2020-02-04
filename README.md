@@ -1,2 +1,2 @@
-# new-portfolio
-updated portfolio
+# Portfolio
+Samuel Pai's portfolio. 
